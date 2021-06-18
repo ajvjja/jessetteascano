@@ -65,7 +65,7 @@ nav a:hover{
 	font-size: 70px;
 	font-family: poppins;
 	text-transform: uppercase;
-	color: #fff;
+	color: black;
 }
 
 /*WHOLE PAGE (ABOUT, PORTFOLIO, CONTACT)*/
@@ -80,7 +80,7 @@ nav a:hover{
 	padding: 2% 0px;
 	font-family: poppins;
 	line-height: 30px;
-	color: white;
+	color: black;
 }
 
 /*ABOUT ME*/
