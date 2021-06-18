@@ -25,7 +25,8 @@ self.addEventListener("install", e => {
              "./images/lang2.png",
              "./images/lang3.png",
              "./images/lang4.png",
-             "./images/lang5.png"
+             "./images/lang5.png",
+             "./images/j6.jpg"
          ]);
       })
     );
