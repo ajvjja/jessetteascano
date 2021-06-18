@@ -1,0 +1,631 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	text-align: center;
+}
+
+/*Navigation Bar*/
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+header {
+	height: 100px;
+	background: #262626;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+.logo {
+	width: 30%;
+	float: left;
+	line-height: 100px;
+}
+.logo a {
+	text-decoration: none;
+	font-size: 30px;
+	font-family: poppins;
+	color: #fff;
+	letter-spacing: 5px;
+}
+nav {
+	float: right;
+	line-height: 100px;
+}
+nav a {
+	text-decoration: none;
+	font-family: poppins;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 10px;
+	color: #fff;
+}
+
+nav a:hover{
+	color: #DC4970;
+	transition: .7s ease;
+}
+
+
+/*Cover Photo*/
+.banner-area {
+	width: 100%;
+	height: 510px;
+	position: fixed;
+	top: 100px;
+	background-image: url(j6.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+
+}
+.banner-area h2 {
+	padding-top: 8%;
+	font-size: 70px;
+	font-family: poppins;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+/*WHOLE PAGE (ABOUT, PORTFOLIO, CONTACT)*/
+.content-area {
+	width: 100%;
+	position: relative;
+	top: 600px;
+	background: #ebebeb;
+	height: 1690px;
+}
+.banner-area p{
+	padding: 2% 0px;
+	font-family: poppins;
+	line-height: 30px;
+	color: white;
+}
+
+/*ABOUT ME*/
+.content-area #aboutMe {
+	font-family: poppins;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+}
+.content-area, p {
+	padding: 2% 0px;
+	font-family: poppins;
+	line-height: 30px;
+}
+
+.content-about{
+	height: 120px;
+	width: 400px;
+	background-color: auto;
+	float: right;
+	margin-right: 50px;
+	margin-top: -320px;
+	text-align: justify;
+	font-size: 15px;
+	padding: -1px;
+
+}
+.about-button{
+	background-color: #DC4970;
+	color: white;
+	border-radius: 50px;
+	height: 40px;
+	width: 170px;
+	font-size: 15px;
+	border-color: #DC4970;
+	font-family: poppins;
+	font-weight: 30px;
+	transition: .7s ease;
+
+}
+
+.about-button:hover{
+	background-color: transparent;
+	color: white;
+	opacity: 0.9;
+}
+
+/*Column for the picture about*/
+.wrapper-picture{ 
+	height: 300px;
+	width: 490px;
+	background-color: auto;
+	margin-top: 60px;
+	margin-left: 50px;
+}
+
+.wrapper-picture2{
+	background-color: auto;
+	height: 150px;
+	width: 250px;
+	margin-left: 420px;
+	margin-top: -90px; 
+}
+
+/*About Picture*/
+.mine{
+	border-radius: 2%;
+}
+
+.mine2{
+	border-radius: 2%;
+	box-shadow: 5px 5px 5px grey;
+	
+}
+
+/*Show my Skills*/
+.skills-button{
+	background-color: transparent;
+	color: #DC4970;
+	border-radius: 50px;
+	height: 40px;
+	width: 170px;
+	font-size: 15px;
+	border-color: #DC4970;
+	font-family: poppins;
+	font-weight: 30px;
+	float: right;
+	margin-right: 165px;
+	margin-top: -110px;
+}
+
+.skills-button:hover{
+	background-color: #DC4970;
+	color: white;
+	opacity: 0.9;
+	transition: .9s ease;
+}
+
+/* Show my skills (HIDE) */
+#myDIV{
+	width: 100%;
+	height: 165px;
+	background-color: auto;
+	margin-top: 50px;
+	margin-bottom: -35px;
+}
+
+.container {
+  width: 270px;
+  height: 30px;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  color: white;
+}
+
+.html {width: 90%; background-color: #DC4970;}
+.css {width: 80%; background-color: #DC4970;}
+.js {width: 30%; background-color: #DC4970;}
+.php {width: 20%; background-color: #DC4970;}
+
+
+.column {
+  float: left;
+  margin-left: 300px;
+  width: 30%;
+  padding: 10px;
+  height: 200px;
+  margin: 10px;
+  padding-left: 200px;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Porfolio */
+.portfolio{
+	height: 550px;
+	width: 100%;
+	background-color: #DC4970;
+	margin-top: 45px;
+}
+
+#port {
+	padding-top: 50px;
+	font-weight: -0px;
+	padding-bottom: 1px;
+}
+
+#whatido{
+	font-family: poppins;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+	color: white;
+	padding-top: 10px;
+}
+
+
+/* I love what I do Div */
+.column2 {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 245px;
+  margin-top: 100px;
+  padding-top: 60px;
+  margin-left: 60px;
+  margin: 10px;
+  padding-left: 115px;
+
+}
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* I love what I do image */
+.container2 {
+  position: relative;
+  width: 50%;
+
+}
+
+.image {
+  display: block;
+  padding-left: 0px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 245px;
+  width: 260px;
+  opacity: 0;
+  transition: .8s ease;
+  background-color: #262626;
+}
+
+.container2:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Line Animation */
+ .geeks { 
+            width: 400px; 
+            height: 20px; 
+            background: #ebebeb; 
+            position: absolute;
+            top: 35%; 
+            left: 36%; 
+            transform: translate(-50%, -50%);
+            
+        } 
+  
+        .geeks::before { 
+            content: ""; 
+            position: absolute; 
+            top: 0; 
+            left: 0; 
+            width: 100%; 
+            height: 100%; 
+            background: #DC4970; 
+            animation: animate 5s linear infinite; 
+        } 
+  
+        @keyframes animate { 
+            0% { 
+                left: 0; 
+            } 
+  
+            50% { 
+                left: 100%; 
+            } 
+  
+            0% { 
+                left: 0; 
+            } 
+        }
+
+/*Contact*/
+#contactme{
+	margin-top:2em;
+	font-family: poppins;
+	letter-spacing: 4px;
+	font-size: 40px;
+}
+
+.input-group{
+	height: 20px;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 6px;
+	border: 1px solid gray;
+	width: 25em;
+}
+
+#btn{
+	background-color: #DC4970;
+	color: white;
+	border-radius: 50px;
+	height: 40px;
+	width: 170px;
+	font-size: 15px;
+	border-color: #DC4970;
+	font-family: poppins;
+	font-weight: 30px;
+	margin-left: -350%;
+}
+
+#btn:hover{
+	background-color: transparent;
+	color: #DC4970;
+	opacity: 0.9;
+	transition: .8s ease;
+}
+
+textarea{
+	resize: none;
+	height: auto;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 6px;
+	border: 1px solid gray;
+	width: 25em;
+	font-family: Arial;
+}
+
+.wrapper-form{
+	height: 200px;
+	width: 427px;
+	background-color: auto;
+	margin-left: 463px;
+}
+
+/*Footer*/
+.footer{
+	padding-top: 20px;
+}
+
+.inner-footer{
+	margin: 0;
+	padding: 0;
+	background-color: #272727;
+	height: 110px;
+}
+
+.social-links{
+	display: flex;
+}
+
+.social-links ul{
+	padding: 10px;
+	display: flex;
+	width: 300px;
+	height: 30px;
+	margin: auto;
+}
+
+.social-items{
+	list-style: none;
+}
+
+.social-items a{
+	padding: 10px 20px;
+	font-size: 35px;
+	color: #DC4970;
+	width: 300px;
+	height: 30px;
+	margin: auto;
+	margin-top: 5px;
+}
+
+.social-items a:hover{
+	color: #fff;
+	transition: all .25s;
+}
+
+.quick-links{
+	display: flex;
+	width: 560px;
+	height: 70px;
+	margin: auto;
+	font-family: Times New Roman;
+}
+
+.quick-links ul{
+	display: flex;
+	margin-top: 10px;
+	margin-left: 110px;
+}
+
+.quick-items{
+	list-style: none;
+	font-size: 16px;
+}
+
+.quick-items a:hover{
+	color: #DC4970;
+	text-decoration: none;
+	transition: all .25s;
+}
+.quick-items a{
+	text-decoration: none;
+	padding: 0px 15px;
+	font-size: 18px;
+	color: #fff;
+}
+
+.outer-footer{
+	padding: 7px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	background-color: #3f3f3f;
+}
+
+#info{
+	background-color: auto;
+	height:50px;
+	width: 200px;
+	float: right;
+	font-size: 23px;
+	font-family: poppins;
+	margin-top: -360px;
+	color: #DC4970;
+	margin-right: 150px;
+	padding: 5px;
+	letter-spacing: 2px;
+	font-weight: bold;
+
+}
+
+/*MODAL*/
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  		/*overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #ebebeb;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  margin-top: 115px;
+  height: 450px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*CONTENT MODAL */
+.caption{
+	font-family: poppins;
+	letter-spacing: 4px;
+	padding-top: 10px;
+	font-size: 40px;
+	margin: 0;
+}
+
+
+/*Photography */
+div.gallery {
+  margin: -6px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  margin-top: 34px;
+  margin-left: 32px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+/*Cat */
+div.gallery2 {
+  margin: -6px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  margin-top: 34px;
+  margin-left: 32px;
+}
+
+div.gallery2:hover {
+  border: 1px solid #777;
+}
+
+div.gallery2 img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc2 {
+  padding: 15px;
+  text-align: center;
+}
+
+
+
+/*Selfie*/
+div.gallery3 {
+  margin: -6px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  margin-top: 34px;
+  margin-left: 32px;
+}
+
+div.gallery3:hover {
+  border: 1px solid #777;
+}
+
+div.gallery3 img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc3 {
+  padding: 15px;
+  text-align: center;
+}
+
+

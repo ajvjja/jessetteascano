@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#b9ae0c">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="manifest" href="manifest.webmanifest">
+        <link rel="apple-touch-icon" href="images/192.png">
+        <script src="https://kit.fontawesome.com/f9a76d52b7.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="box-area" id="home">
+        <header>
+            <div class="wrapper">
+                <div class="logo">
+                    <a href="#">LiLJessy</a>
+                </div>
+                <nav>
+                    <a href="#home">Home</a>
+                    <a href="#aboutjessy">About</a>
+                    <a href="#port">Portfolio</a>
+                    <a href="#contacts">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <div class="banner-area">
+            <h2>Jessette Ascaño</h2>
+            <p>Please browse around my website to view my porfolio.<br>
+                "Don't hate me, just get to know me first!"
+            </p>
+            <a href="#aboutjessy"><button class="about-button">About Me</button></a>
+        </div>
+
+        <section class="content-area" id="aboutjessy">
+            <section class="wrapper">
+                <h2 id="aboutMe">AboutMe</h2>
+                <div class="wrapper-picture">
+                    <img class="mine"src="j3.jpg" height="300px" width="505">
+                </div>
+
+                <div class="wrapper-picture2">
+                    <img class="mine2" src="j2.jpg" height="150px" width="250px">
+                </div>
+
+                <div class="wrapper-about">
+                    
+                    <div id="info">
+                        Personal Info
+                    </div>
+
+                    <p class="content-about">
+                    Jessette V. Ascaño 20 years old I am a Information Technology
+                    Major in Web and Mobile Application Development student at Laguna
+                    State Polytechnic University from Tiaong, Quezon.
+                    <br>
+                    "Expert in anything was once a Beginner."
+                    </p>
+
+
+                    <button class="skills-button" onclick="myFunction()">Show my Skills</button>
+                    <div class="geeks" id="geeksfuntion"></div>
+                </div>
+            </section>
+
+                <section id="myDIV" style="display: none;">
+
+                    <div class="row">
+                        <div class="column">
+                            
+                            <h4>HTML</h4>
+                            <div class="container">
+                              <div class="skills html">90%</div>
+                            </div>
+
+                            <h4>CSS</h4>
+                            <div class="container">
+                              <div class="skills css">80%</div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            
+                                <h4>JavaScript</h4>
+                                <div class="container">
+                                  <div class="skills js">30%</div>
+                                </div>
+
+                                <h4>PHP</h4>
+                                <div class="container">
+                                  <div class="skills php">20%</div>
+                                </div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="portfolio" id="port">
+                    <div class="wrapper-porfolio">
+                        <p id="port">#Portfolio</p>
+                        <h2 id="whatido">I love What I Do</h2>
+
+                    <div class="row2">
+
+                            <div class="column2">   
+                            <!-- Trigger/Open The Modal -->
+                            <button id="myBtn" onclick="open_modal()">
+                                <div class="container2">
+                                        <img src="hobbies.jpg" class="image" width="260px" height="245px">
+                                        <div class="overlay"><div class="text">Hobbies</div></div>
+                                </div>
+                            </button>
+
+                            <!-- The Modal -->
+                            <div id="myModal" class="modal">
+
+                                  <!-- Modal content -->
+                                  <div class="modal-content">
+                                    <span class="close" id="close" onclick="close_span()">&times;</span></button>
+                                    <h2 class="caption">Hobbies</h2>
+
+
+                                <div class="gallery">
+                                  <a target="_blank" href="p5.jpg">
+                                    <img src="p5.jpg" alt="Cinque Terre" width="600" height="400">
+                                  </a>
+                                  <div class="desc">Phonetography</div>
+                                </div>
+
+                                <div class="gallery">
+                                  <a target="_blank" href="c3.jpg">
+                                    <img src="c3.jpg" alt="Forest" width="600" height="400">
+                                  </a>
+                                  <div class="desc">Cat Lover</div>
+                                </div>
+
+                                <div class="gallery">
+                                  <a target="_blank" href="m3.jpg">
+                                    <img src="m3.jpg" alt="Northern Lights" width="600" height="400">
+                                  </a>
+                                  <div class="desc">Selfie</div>
+                                </div>
+
+                                <div class="gallery">
+                                  <a target="_blank" href="p7.jpg">
+                                    <img src="p7.jpg" alt="Mountains" width="600" height="400">
+                                  </a>
+                                  <div class="desc">Travel</div>
+                                </div>
+
+                                <div class="gallery">
+                                  <a target="_blank" href="b1.jpg">
+                                    <img src="b1.jpg" alt="Mountains" width="600" height="400">
+                                  </a>
+                                  <div class="desc">Beach</div>
+                                </div>
+
+
+                                  </div>
+
+                            </div>
+                    </div>
+                            <!-- End -->
+
+
+
+                            <div class="column2">   
+                            <!-- Trigger/Open The Modal -->
+                            <button id="myBtn2" onclick="open_modal_two()">
+                                <div class="container2">
+                                        <img src="mm.png" class="image" width="260px" height="245px">
+                                        <div class="overlay"><div class="text">Movies & Music</div></div>
+                                </div>
+                            </button>
+
+                            <!-- The Modal -->
+                            <div id="myModal2" class="modal">
+
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                  <span class="close" id="close2" onclick="close_span_two()">&times;</span>
+                                  <h2 class="caption">Movies & Love Song</h2>
+
+
+                                <div class="gallery2">
+                                  <a target="_blank" href="movie1.jpg">
+                                    <img src="movie1.jpg" alt="Cinque Terre" width="600" height="400">
+                                  </a>
+                                  <div class="desc2">Titanic</div>
+                                </div>
+
+                                <div class="gallery2">
+                                  <a target="_blank" href="movie2.jpeg">
+                                    <img src="movie2.jpeg" alt="Forest" width="600" height="400">
+                                  </a>
+                                  <div class="desc2">Mulan</div>
+                                </div>
+
+                                <div class="gallery2">
+                                  <a target="_blank" href="movie3.jpg">
+                                    <img src="movie3.jpg" alt="Northern Lights" width="600" height="400">
+                                  </a>
+                                  <div class="desc2">Parasite</div>
+                                </div>
+
+                                <div class="gallery2">
+                                  <a target="_blank" href="music1.png">
+                                    <img src="music1.png" alt="Mountains" width="600" height="400">
+                                  </a>
+                                  <div class="desc2">Paubaya by Moira Dela Torre</div>
+                                </div>
+
+                                <div class="gallery2">
+                                  <a target="_blank" href="music3.jpg">
+                                    <img src="music3.jpg" alt="Mountains" width="600" height="400">
+                                  </a>
+                                  <div class="desc2">Sunflower by Rex Orange Country</div>
+                                </div>
+                                </div>
+
+                          </div>
+                            </div>
+                            <!-- End -->
+
+
+                            <div class="column2">   
+                            <!-- Trigger/Open The Modal -->
+                            <button id="myBtn3" onclick="open_modal_three()">
+                                <div class="container2">
+                                        <img src="languages.png" class="image" width="260px" height="245px">
+                                        <div class="overlay"><div class="text">Programming Languages</div></div>
+                                </div>
+                            </button>
+
+                            <!-- The Modal -->
+                            <div id="myModal3" class="modal">
+
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                  <span class="close" id="close3" onclick="close_span_three()">&times;</span>
+                                  <h2 class="caption">Programming Languages</h2>
+
+
+
+
+                                <div class="gallery3">
+                                  <a target="_blank" href="lang1.png">
+                                    <img src="lang1.png" alt="Cinque Terre" width="600" height="400">
+                                  </a>
+                                  <div class="desc3">C#</div>
+                                </div>
+
+                                <div class="gallery3">
+                                  <a target="_blank" href="lang2.png">
+                                    <img src="lang2.png" alt="Forest" width="600" height="400">
+                                  </a>
+                                  <div class="desc3">HTML</div>
+                                </div>
+
+                                <div class="gallery3">
+                                  <a target="_blank" href="lang3.png">
+                                    <img src="lang3.png" alt="Northern Lights" width="600" height="400">
+                                  </a>
+                                  <div class="desc3">CSS</div>
+                                </div>
+
+                                <div class="gallery3">
+                                  <a target="_blank" href="lang4.png">
+                                    <img src="lang4.png" alt="Mountains" width="600" height="400">
+                                  </a>
+                                  <div class="desc3">JavaScript</div>
+                                </div>
+
+                                <div class="gallery3">
+                                  <a target="_blank" href="lang5.png">
+                                    <img src="lang5.png" alt="Mountains" width="600" height="400">
+                                  </a>
+                                  <div class="desc3">Php</div>
+                                </div>
+
+                                </div>
+                            </div>
+                            </div>
+                            <!-- End -->
+
+
+                        </div>
+                    </div>
+                </section>
+                
+
+                <section class="wrapper-contact" id="contacts">
+                    <h2 id="contactme">ContactMe</h2>
+                    <p>
+                        I like to create things with fun. Feel free to say hello!
+                    </p>
+
+                    <div class="wrapper-form">
+                    <form>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <input type="text" class="input-group" placeholder="Name" id="paddingText">
+                                    </td>
+                
+                                </tr>
+                                
+                                <tr>
+                                    <td>
+                                        <input type="text" class="input-group" placeholder="Your email address" id="paddingText">
+                                    </td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <textarea cols="70" rows="3" placeholder="Message"></textarea>
+                                        
+                                    </td>
+                            
+                                </tr>
+
+                                <tr>
+                                    <td></td>
+                                    <td><input type="submit" value="Submit Form" id="btn"></td>
+                                </tr>
+                            </table>
+                    </form>
+
+
+
+
+
+            </section>
+
+            <footer class="footer">
+                <div class="inner-footer">
+                    <div class="social-links">
+                        <ul>
+                            <li class="social-items"><a href="https://www.facebook.com/jessette.vergara"><i class="fab fa-facebook-square"></i></a></li>
+                            <li class="social-items"><a href="https://twitter.com/LiLJesxy"><i class="fab fa-twitter-square"></i></a></li>
+                            <li class="social-items"><a href="https://www.instagram.com/jesxette/"><i class="fab fa-instagram-square"></i></a></li>
+                            <li class="social-items"><a href="https://www.linkedin.com/in/jessette-ascaño-b12a351ba"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="quick-links">
+                        <ul>
+                            <li class="quick-items"><a href="#home">Home</a></li>
+                            <li class="quick-items"><a href="#aboutjessy">About</a></li>
+                            <li class="quick-items"><a href="#port">Portfolio</a></li>
+                            <li class="quick-items"><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="outer-footer">
+                    Copyright &copy 2021 LiLJessy. All Right Reserved.
+                </div>
+            </footer>
+
+        </section>
+    </div>
+
+
+
+
+</body>
+<script type="text/javascript">
+            function myFunction() {
+          var x = document.getElementById("myDIV");
+          var disp = document.getElementById('geeksfuntion');
+          if (x.style.display === "block") {
+            x.style.display = "none";
+             disp.style.display = "block";
+          } else {
+            x.style.display = "block";
+            disp.style.display = "none";
+          }
+        }
+
+
+var modal = document.getElementById("myModal");
+var modal2 = document.getElementById("myModal2");
+var modal3 = document.getElementById("myModal3");
+var modal4 = document.getElementById("myModal4");
+
+function open_modal() {
+  modal.style.display = "block";
+}
+function open_modal_two() {
+  modal2.style.display = "block";
+}
+function open_modal_three() {
+  modal3.style.display = "block";
+}
+function open_modal_four() {
+  modal4.style.display = "block";
+}
+//
+function close_span() {
+    modal.style.display = "none";
+}
+function close_span_two() {
+  modal2.style.display = "none";
+}
+function close_span_three() {
+  modal3.style.display = "none";
+}
+function close_span_four() {
+  modal4.style.display = "none";
+}
+//
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
+</script>
+
+
+
+
+
+
+        <script src="index.js"></script>
+    </body>
+</html>
