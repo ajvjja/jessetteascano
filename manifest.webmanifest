@@ -1,10 +1,10 @@
 {
-  "name": "Mobile Computing",
+  "name": "Jessette Ascano",
   "short_name": "PWA",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#fff",
-  "description": "My first PWA",
+  "description": "My Portfolio",
   "icons": [
     {
       "src": "images/512.png",
